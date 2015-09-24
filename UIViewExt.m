@@ -170,6 +170,7 @@ CGRect CGRectMoveToCenter(CGRect rect, CGPoint center)
 }
 
 // Ensure that both dimensions fit within the given size by scaling down
+
 - (void) fitInSize: (CGSize) aSize
 {
 	CGFloat scale;
